@@ -14,6 +14,52 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+/* Transición para todos los elementos que cambien de color, tamaño, o posición */
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efecto hover mejorado para los enlaces del menú */
+.menu .navbar ul li a:hover {
+    color: rgb(82, 120, 145);
+    transform: scale(1.1); /* Ampliación ligera */
+}
+
+/* Animación de entrada para las secciones */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.header-content h1,
+.header-content p,
+.coffee-content h2,
+.coffee-content p,
+.services-content h2,
+.services-content p,
+.blog h2 {
+    animation: fadeInUp 1s ease-out;
+}
+
+/* Efecto hover para los botones */
+.btn-1:hover {
+    background-color: rgb(82, 120, 145);
+    transform: translateY(-3px); /* Efecto de elevación */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Efecto hover para íconos sociales */
+.socialIcons a:hover {
+    transform: scale(1.2);
+}
+
+
 .container {
 
     max-width: 1200px;
