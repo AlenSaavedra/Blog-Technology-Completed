@@ -425,7 +425,7 @@ footer {
 
 .footerContainer {
     width: 100%;
-    padding: 70px 30px 20px;
+    padding: 40px 20px 10px; /* Reduje el padding */
 }
 
 .socialIcons {
@@ -435,31 +435,31 @@ footer {
 
 .socialIcons a {
     text-decoration: none;
-    padding: 10px;
+    padding: 8px; /* Reduje el padding */
     background-color: white;
-    margin: 10px;
+    margin: 5px; /* Reduje el margen */
     border-radius: 50%;
 }
 
 .socialIcons a i {
-    font-size: 2em;
+    font-size: 1.5em; /* Reduje el tamaño de la fuente */
     color: black;
-    opacity: 0, 9;
+    opacity: 0.9;
 }
 
-/* Hover affect on social media icon */
+/* Hover effect on social media icon */
 .socialIcons a:hover {
     background-color: #111;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .socialIcons a:hover i {
     color: white;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .footerNav {
-    margin: 30px 0;
+    margin: 20px 0; /* Reduje el margen */
 }
 
 .footerNav ul {
@@ -470,12 +470,11 @@ footer {
 
 .footerNav ul li a {
     color: white;
-    margin: 20px;
+    margin: 15px; /* Reduje el margen */
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.1em; /* Reduje el tamaño de la fuente */
     opacity: 0.7;
-    transition: 0.5s;
-
+    transition: 0.3s;
 }
 
 .footerNav ul li a:hover {
@@ -484,12 +483,13 @@ footer {
 
 .footerBottom {
     background-color: #000;
-    padding: 20px;
+    padding: 10px; /* Reduje el padding */
     text-align: center;
 }
 
 .footerBottom p {
     color: white;
+    font-size: 0.9em; /* Reduje el tamaño de la fuente */
 }
 
 .designer {
@@ -498,6 +498,7 @@ footer {
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
+    font-size: 0.8em; /* Reduje el tamaño de la fuente */
 }
 
 @media (max-width: 700px) {
@@ -512,7 +513,7 @@ footer {
     }
 
     .socialIcons a {
-        padding: 8px;
-        margin: 10px;
+        padding: 6px; /* Ajuste para pantallas más pequeñas */
+        margin: 8px;
     }
 }
