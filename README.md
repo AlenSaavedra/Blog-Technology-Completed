@@ -1,5 +1,3 @@
-Aquí te dejo un `README.md` adaptado para tu plantilla de blog "Digital Prestige" con solo HTML y CSS:
-
 ```md
 # Digital Prestige - Plantilla de Blog Tecnológico
 
