@@ -55,6 +55,8 @@ digital-prestige/
 
 ## Compatibilidad
 
+Plantilla solo para tamaño computador
+
 La plantilla está diseñada para funcionar correctamente en los navegadores modernos como:
 
 - Google Chrome
